@@ -2,46 +2,46 @@
 def number_of_food_groups():
     return 5
 print(number_of_food_groups())
-
+# prints 5
 
 #2
 def number_of_military_branches():
     return 5
 print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
-
+#error number_of_days...is undefined
 
 #3
 def number_of_books_on_hold():
     return 5
     return 10
 print(number_of_books_on_hold())
-
+# print 5
 
 #4
 def number_of_fingers():
     return 5
     print(10)
 print(number_of_fingers())
-
+#print 5
 
 #5
 def number_of_great_lakes():
     print(5)
 x = number_of_great_lakes()
 print(x)
-
+# print 5 and none
 
 #6
 def add(b,c):
     print(b+c)
 print(add(1,2) + add(2,3))
-
+# print 3, 5
 
 #7
 def concatenate(b,c):
     return str(b)+str(c)
 print(concatenate(2,5))
-
+# pring 25
 
 #8
 def number_of_oceans_or_fingers_or_continents():
@@ -53,7 +53,7 @@ def number_of_oceans_or_fingers_or_continents():
         return 10
     return 7
 print(number_of_oceans_or_fingers_or_continents())
-
+# print 100, 10,
 
 #9
 def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
@@ -65,14 +65,14 @@ def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
-
+# print 7, 14, 21
 
 #10
 def addition(b,c):
     return b+c
     return 10
 print(addition(3,5))
-
+# print 8
 
 #11
 b = 500
@@ -83,7 +83,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
-
+# print 500, 500, 300, 500 *********This one confused me. I know it's because of the indentions but I need to study this.
 
 #12
 b = 500
@@ -95,6 +95,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
+# print 500, 500, 300, 500 **********Confused on this one too!
 
 
 #13
@@ -107,7 +108,7 @@ def foobar():
 print(b)
 b=foobar()
 print(b)
-
+# print 500, 500, 300, 300 *************I really don't get the indention thing and how it messes with the results.
 
 #14
 def foo():
@@ -117,6 +118,7 @@ def foo():
 def bar():
     print(3)
 foo()
+# print 1, 3, 2 *******************Why not 1, 2, 3???
 
 
 #15
@@ -130,3 +132,4 @@ def bar():
     return 5
 y = foo()
 print(y)
+# print 1, 3, 5, 10 *******************I think I figured out how to get the order but might be wrong.
